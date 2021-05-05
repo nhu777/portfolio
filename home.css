@@ -18,6 +18,10 @@ body {
     padding: 2em 2em 4em;
 }
 
+.big-body    {
+    height: 900px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -116,7 +120,7 @@ body {
     border-style: solid;
     border-color: black;
     border-radius: 5px;
-    height: 70vh;
+    height: 75vh;
     overflow-y: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
@@ -160,6 +164,21 @@ body {
     transition-timing-function: ease-in-out;
 }
 
+.rally-case-study {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    display: hidden;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    height: 80vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+
 #figma-embed    {
     display: flex;
     align-items: center;
@@ -170,6 +189,25 @@ body {
     float: left;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    background-color: white;
+    place-items: center;
+}
+
+.item1 {
+    padding: 30px;
+    text-align: left;
+    background-color: white;
+}
+
+.grid-text  {
+
 }
 
 .left-col   {
@@ -184,6 +222,12 @@ body {
     width: 50%;
     float: left;
     padding: 30px;
+}
+
+.left-col-small {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 .title-font {
@@ -204,12 +248,20 @@ body {
 }
 
 a:link   {
-    font-family: 'Space Mono', monospace;
-    font-size: 9 px;
-    color: red;
+    font-family: 'MotoyaLMaru';
+    font-size: 12px;
+    color: black;
+}
+
+a:visited  {
+    color: black;
 }
 
 a:hover {
+    color: #009CDB;
+}
+
+a:active    {
     color: black;
 }
 
@@ -615,6 +667,7 @@ img {
 
 .row    {
     width: 100%;
+    height: auto;
 }
 
 
