@@ -132,6 +132,9 @@ body {
     border-color: black;
     border-radius: 5px;
     height: 80vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 .slack-case-study   {
@@ -179,6 +182,21 @@ body {
     transition-timing-function: ease-in-out;
 }
 
+.lorem-case-study {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    display: hidden;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    height: 80vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+
 #figma-embed    {
     display: flex;
     align-items: center;
@@ -204,6 +222,15 @@ body {
     padding: 30px;
     text-align: left;
     background-color: white;
+}
+
+.grid-container-lorem   {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.item2  {
+    text-align: left;
 }
 
 .grid-text  {
@@ -240,6 +267,18 @@ body {
 }
 
 .slack-case-study::-webkit-scrollbar {
+    display: none;
+}
+
+.compass-case-study::-webkit-scrollbar {
+    display: none;
+}
+
+.lorem-case-study::-webkit-scrollbar {
+    display: none;
+}
+
+.rally-case-study::-webkit-scrollbar {
     display: none;
 }
 
