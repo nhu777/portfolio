@@ -218,6 +218,24 @@ body {
     place-items: center;
 }
 
+.content {
+    grid-area: main;
+}
+.sidebar {
+    grid-area: sd;
+}
+
+.wrapper {
+    display: grid;
+    outline: solid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+      "hd hd hd hd   hd   hd   hd   hd   hd"
+      "sd sd sd main main main main main main"
+      "ft ft ft ft   ft   ft   ft   ft   ft";
+}
+
 .item1 {
     padding: 30px;
     text-align: left;
@@ -231,6 +249,10 @@ body {
 
 .item2  {
     text-align: left;
+}
+
+.item3  {
+    text-align: center;
 }
 
 .grid-text  {
