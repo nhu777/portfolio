@@ -40,6 +40,11 @@ body {
     transition-duration: 0.4s;
     margin-top: 5px;
     margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.image-button   {
+
 }
 
 .button:hover   {
