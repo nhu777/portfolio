@@ -128,7 +128,7 @@ body {
 }
 
 .menu-scrollbox {
-    border: 1px;
+    border: 0.1em;
     border-style: solid;
     border-color: black;
     border-radius: 5px;
@@ -139,7 +139,7 @@ body {
 }
 
 .landing    {
-    border: 1px;
+    border: 0.1em;
     border-style: solid;
     border-color: black;
     border-radius: 5px;
@@ -153,7 +153,7 @@ body {
     transition-delay: 1s;
     transition-timing-function: ease-in-out;
     display: hidden;
-    border: 1px;
+    border: 0.1em;
     border-style: solid;
     border-color: black;
     border-radius: 5px;
@@ -167,7 +167,7 @@ body {
 .compass-case-study {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     display: hidden;
-    border: 1px;
+    border: 0.1em;
     border-style: solid;
     border-color: black;
     border-radius: 5px;
@@ -182,7 +182,7 @@ body {
 .rally-case-study {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     display: hidden;
-    border: 1px;
+    border: 0.1em;
     border-style: solid;
     border-color: black;
     border-radius: 5px;
@@ -197,7 +197,7 @@ body {
 .lorem-case-study {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     display: hidden;
-    border: 1px;
+    border: 0.1em;
     border-style: solid;
     border-color: black;
     border-radius: 5px;
@@ -236,7 +236,7 @@ body {
     box-sizing: border-box;
     grid-template-columns: auto auto;
     background-color: blue;
-    border: solid 1px;
+    border: solid 0.1em;
     place-items: center;
 }
 
