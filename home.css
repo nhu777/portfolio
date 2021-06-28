@@ -40,11 +40,6 @@ body {
     transition-duration: 0.4s;
     margin-top: 5px;
     margin-bottom: 5px;
-    cursor: pointer;
-}
-
-.image-button   {
-
 }
 
 .button:hover   {
@@ -106,13 +101,6 @@ body {
     font-family: 'SF-Pro-Display-Bold';
     font-size: 10px;
     color: #C4C4C4;
-}
-
-.landing-sf-pro {
-    font-family: 'SF-Pro-Display-Regular';
-    font-size: 100px;
-    color: black;
-    line-height: 90%;
 }
 
 .menu-mini  {
@@ -212,7 +200,6 @@ body {
 #figma-embed    {
     display: flex;
     align-items: center;
-    height: 100vh;
 }
 
 .main {
@@ -229,31 +216,6 @@ body {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     background-color: white;
     place-items: center;
-}
-
-.landing-grid-container {
-    display: grid; 
-    box-sizing: border-box;
-    grid-template-columns: auto auto;
-    background-color: blue;
-    border: solid 1px;
-    place-items: center;
-}
-
-.parent {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    grid-column-gap: 10px;
-    place-items: center;
-    text-align: center;
-}
-
-.landing-grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  font-size: 30px;
 }
 
 .content {
@@ -291,6 +253,10 @@ body {
 
 .item3  {
     text-align: center;
+}
+
+.grid-text  {
+
 }
 
 .left-col   {
@@ -335,10 +301,6 @@ body {
 }
 
 .rally-case-study::-webkit-scrollbar {
-    display: none;
-}
-
-.landing::-webkit-scrollbar {
     display: none;
 }
 
