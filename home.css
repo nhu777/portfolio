@@ -13,7 +13,7 @@ body {
     font-family: 'SF-Pro-Display-Regular';
     font-weight: 400;
     font-style: normal;
-    font-size: 12px;
+    font-size: 0.9em;
     line-height: 1.5;
     padding: 2em 2em 4em;
 }
@@ -36,7 +36,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-family: 'GT-Pressura-Regular';
-    font-size: 12px;
+    font-size: 0.9em;
     transition-duration: 0.4s;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -62,7 +62,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-family: 'GT-Pressura-Regular';
-    font-size: 12px;
+    font-size: 0.9em;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -77,7 +77,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-family: 'GT-Pressura-Regular';
-    font-size: 12px;
+    font-size: 0.9em;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -92,19 +92,19 @@ body {
     text-decoration: none;
     display: inline-block;
     font-family: 'GT-Pressura-Regular';
-    font-size: 12px;
+    font-size: 0.9em;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .motoya     {
     font-family: 'GT-Pressura-Regular';
-    font-size: 12px;
+    font-size: 0.9em;
 }
 
 .sf-bold    {
     font-family: 'SF-Pro-Display-Bold';
-    font-size: 10px;
+    font-size: 0.8em;
     color: #C4C4C4;
 }
 
@@ -251,11 +251,6 @@ body {
     text-align: center;
 }
 
-.landing-grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  font-size: 30px;
-}
-
 .content {
     grid-area: main;
 }
@@ -313,11 +308,6 @@ body {
     margin-right: auto
 }
 
-.title-font {
-    font-family: 'GT-Pressura-Regular'
-    font-size: 36px;
-}
-
 .menu-scrollbox::-webkit-scrollbar {
     display: none;
 }
@@ -348,7 +338,7 @@ body {
 
 a:link   {
     font-family: 'MotoyaLMaru';
-    font-size: 12px;
+    font-size: 0.9em;
     color: black;
 }
 
@@ -393,7 +383,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'GT-Pressura-Regular';
     font-weight: 400;
     font-style: normal;
-    font-size: 14px;
+    font-size: 1em;
     color: black;
     line-height: 1.5;
 }
@@ -405,22 +395,6 @@ h2 {
 
 mark    {
     background-color: honeydew;
-}
-
-.quote  {
-    font-family: 'Space Mono', monospace;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 25px;
-}
-
-.quote-small    {
-    font-family: 'Space Mono', monospace;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: auto;
 }
 
 a {
@@ -508,226 +482,6 @@ img {
   filter: grayscale(100%);
 }
 
-.article-image   {
-    transition: transform 1s;
-    -webkit-transform: rotate(-7.11deg);
-    -moz-transform: rotate(-7.11deg);
-    -o-transform: rotate(-7.11deg);
-    -ms-transform: rotate(-7.11deg);
-    transform: rotate(-7.11deg);
-    -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 20px 50px #C22727;
-}
-
-.article-image2 {
-    transition: transform 1s;
-    -webkit-transform: rotate(4.43deg);
-    -moz-transform: rotate(4.43deg);
-    -o-transform: rotate(4.43deg);
-    -ms-transform: rotate(4.43deg);
-    transform: rotate(4.43deg);
-    -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 20px 50px #F19F9E;
-}
-
-.article-image3 {
-    transition: transform 1s;
-    -webkit-transform: rotate(-3.77deg);
-    -moz-transform: rotate(-3.77deg);
-    -o-transform: rotate(-3.77deg);
-    -ms-transform: rotate(-3.77deg);
-    transform: rotate(-3.77deg);
-    -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 20px 50px #8C92FF;
-}
-
-.article-image4  {
-    transition: transform 1s;
-    -webkit-transform: rotate(7.77deg);
-    -moz-transform: rotate(7.77deg);
-    -o-transform: rotate(7.77deg);
-    -ms-transform: rotate(7.77deg);
-    transform: rotate(7.77deg);
-    -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 20px 50px #FFD78C;
-}
-
-.article-image:hover   {
-    transition: transform 1s;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -moz-box-shadow: 0 0 0px #ccc;
-    -webkit-box-shadow: 0 0 00px #ccc;
-    box-shadow: 0 0px 00px #E2F9A1;
-}
-
-.article-image2:hover   {
-    transition: transform 1s;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -moz-box-shadow: 0 0 0px #ccc;
-    -webkit-box-shadow: 0 0 00px #ccc;
-    box-shadow: 0 0px 00px #E2F9A1;
-}
-
-.article-image3:hover   {
-    transition: transform 1s;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -moz-box-shadow: 0 0 0px #ccc;
-    -webkit-box-shadow: 0 0 00px #ccc;
-    box-shadow: 0 0px 00px #E2F9A1;
-}
-
-.article-image4:hover   {
-    transition: transform 1s;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -moz-box-shadow: 0 0 0px #ccc;
-    -webkit-box-shadow: 0 0 00px #ccc;
-    box-shadow: 0 0px 00px #E2F9A1;
-}
-
-.bookimage1   {
-    margin-top: 0;
-    width: 110px;
-    transition: transform 1s;
-    -webkit-transform: rotate(-7.11deg);
-    -moz-transform: rotate(-7.11deg);
-    -o-transform: rotate(-7.11deg);
-    -ms-transform: rotate(-7.11deg);
-    transform: rotate(-7.11deg);
-    transition: box-shadow 1s;
-}
-
-.bookimage2   {
-    margin-top: 0;
-    width: 110px;
-    transition: transform 1s;
-    -webkit-transform: rotate(4.43deg);
-    -moz-transform: rotate(4.43deg);
-    -o-transform: rotate(4.43deg);
-    -ms-transform: rotate(4.43deg);
-    transform: rotate(4.43deg);
-    transition: box-shadow 1s;
-}
-
-.bookimage4   {
-    margin-top: 0;
-    width: 110px;
-    transition: transform 1s;
-    -webkit-transform: rotate(-7.24deg);
-    -moz-transform: rotate(-7.24deg);
-    -o-transform: rotate(-7.24deg);
-    -ms-transform: rotate(-7.24deg);
-    transform: rotate(-7.24deg);
-    transition: box-shadow 1s;
-}
-
-.bookimage3   {
-    margin-top: 0;
-    width: 110px;
-    transition: transform 1s;
-    -webkit-transform: rotate(-1.14deg);
-    -moz-transform: rotate(-1.14deg);
-    -o-transform: rotate(-1.14deg);
-    -ms-transform: rotate(-1.14deg);
-    transform: rotate(-1.14deg);
-    transition: box-shadow 1s;
-}
-
-.bookimage1:hover   {
-    transition: transform 1s;
-    -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 40px 80px #E2F9A1;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-}
-
-.bookimage2:hover   {
-    transition: transform 1s;
-    -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 40px 80px #E2F9A1;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-}
-
-.bookimage3:hover   {
-    transition: transform 1s;
-    -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 40px 80px #E2F9A1;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-}
-
-.bookimage4:hover   {
-    transition: transform 1s;
-    -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 40px 80px #E2F9A1;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-}
-
-.booktitle {
-    margin-top: 10px;
-    color: #000000;
-    font-family: covik-sans, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 12px;
-    line-height: 0px;
-    padding-top: 30px;
-}
-
-.bookauthor  {
-    color: 999999;
-    font-family: covik-sans, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 12px;
-    line-height: 0px;
-}
-
-.article-title  {
-    font-family: 'Space Mono', monospace;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1px;
-}
-
 .grid-container  {
     dislay: grid;
     grid-row-gap: 50px;
@@ -744,24 +498,6 @@ img {
     margin-bottom: 100px;
     text-align: left;
     width: 5%
-}
-
-.year-text  {
-    color: #545454;
-    font-family: covik-sans, sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 14px;
-    line-height: 0px;
-    padding-top: 30px;
-}
-
-.article-header-column {
-    background-color:transparent;
-    float:left;
-    margin-bottom: 60px;
-    text-align: left;
-    width: 50%;
 }
 
 .row    {
