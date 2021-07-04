@@ -26,6 +26,14 @@ body {
   box-sizing: border-box;
 }
 
+.blurred-image  {
+     transition: filter .2s ease-in-out;
+}
+.blurred-image:hover {
+    webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+}
+
 .button {
     background-color: white; /* Green */
     border: none;
@@ -353,7 +361,7 @@ body {
 }
 
 a:link   {
-    font-family: 'MotoyaLMaru';
+    font-family: 'GT-Pressura-Regular';
     font-size: 0.9vw;
     color: black;
 }
