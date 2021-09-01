@@ -1,13 +1,11 @@
 html {
-    background: white;
+    background: #E7E7E7;
     -webkit-font-smoothing: antialiased;
 }
 
 body {
-    margin: 30px;
-    margin-bottom: 100px;
+    margin: 15px;
     padding: 0 !important;
-    background: white;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: black;
     font-family: 'SF-Pro-Display-Regular';
@@ -15,7 +13,7 @@ body {
     font-style: normal;
     font-size: 0.9vw;
     line-height: 1.5;
-    padding: 2em 2em 4em;
+    padding: 1em 1em 1em;
 }
 
 .big-body    {
@@ -148,7 +146,25 @@ body {
 .menu {
     width: 22%;
     float: left;
-    padding-right: 10px;
+    background-clip: padding-box;
+    background: white;
+    border-right: 7px solid #E7E7E7;
+}
+
+.mini-menu  {
+    width: 22%;
+    float: left;
+    padding-right: 5px;
+    padding-top: 9px;
+    padding-top: 10px;
+}
+
+.mini-landing   {
+    overflow-y: scroll;
+    width: 78%;
+    padding-top: 10px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 .menu-scrollbox {
@@ -156,7 +172,7 @@ body {
     border-style: solid;
     border-color: black;
     border-radius: 5px;
-    height: 75vh;
+    height: 85vh;
     overflow-y: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
@@ -167,7 +183,8 @@ body {
     border-style: solid;
     border-color: black;
     border-radius: 5px;
-    height: 80vh;
+    height: 85vh;
+    margin-top: -9px;
     overflow-y: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
@@ -175,62 +192,69 @@ body {
 
 .slack-case-study   {
     transition-delay: 1s;
+    margin-top: -9px;
+    background: white;
     transition-timing-function: ease-in-out;
     display: hidden;
     border: 0.1em;
     border-style: solid;
     border-color: black;
     border-radius: 5px;
-    height: 80vh;
+    height: 85vh;
     overflow-y: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-    
+    scrollbar-width: none;  /* Firefox */   
 }
 
 .compass-case-study {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    margin-top: -9px;
     display: hidden;
     border: 0.1em;
     border-style: solid;
     border-color: black;
     border-radius: 5px;
-    height: 80vh;
+    height: 85vh;
     overflow-y: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     transition-delay: 1s;
     transition-timing-function: ease-in-out;
+    background: white;
 }
 
 .rally-case-study {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    margin-top: -9px;
     display: hidden;
     border: 0.1em;
     border-style: solid;
     border-color: black;
     border-radius: 5px;
-    height: 80vh;
+    height: 85vh;
     overflow-y: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     transition-delay: 1s;
     transition-timing-function: ease-in-out;
+    background: white;
 }
 
 .lorem-case-study {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    margin-top: -9px;
     display: hidden;
     border: 0.1em;
     border-style: solid;
     border-color: black;
     border-radius: 5px;
-    height: 80vh;
+    height: 85vh;
     overflow-y: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     transition-delay: 1s;
     transition-timing-function: ease-in-out;
+    background: white;
 }
 
 #figma-embed    {
