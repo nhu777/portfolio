@@ -11,7 +11,7 @@ body {
     font-family: 'SF-Pro-Display-Regular';
     font-weight: 400;
     font-style: normal;
-    font-size: 0.9vw;
+    font-size: 0.9rem;
     line-height: 1.5;
     padding: 1em 1em 1em;
 }
@@ -43,7 +43,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-family: 'SF-Pro-Display-Bold';
-    font-size: 0.9vw;
+    font-size: 0.9rem;
     transition-duration: 0.4s;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -88,7 +88,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-family: 'GT-Pressura-Regular';
-    font-size: 0.9vw;
+    font-size: 0.9rem;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -103,7 +103,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-family: 'GT-Pressura-Regular';
-    font-size: 0.9vw;
+    font-size: 0.9rem;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -118,19 +118,19 @@ body {
     text-decoration: none;
     display: inline-block;
     font-family: 'GT-Pressura-Regular';
-    font-size: 0.9vw;
+    font-size: 0.9rem;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .motoya     {
     font-family: 'GT-Pressura-Regular';
-    font-size: 0.9vw;
+    font-size: 0.9rem;
 }
 
 .sf-bold    {
     font-family: 'SF-Pro-Display-Bold';
-    font-size: 0.7vw;
+    font-size: 0.7rem;
     color: #C4C4C4;
 }
 
@@ -261,6 +261,25 @@ body {
     background: white;
 }
 
+.drawing-case-study {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    margin-top: -9px;
+    text-align:  center;
+    display: hidden;
+    border: 0.1em;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    height: 85vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+    background: white;
+
+}
+
 #figma-embed    {
     display: flex;
     align-items: center;
@@ -354,10 +373,72 @@ body {
     padding: 30px;
 }
 
-.left-col-small {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+.col   {
+    width: 50%;
+    float: left;
+    padding:  30px;
+}
+.row    {
+    width: 100%;
+    height: auto;
+}
+
+.row:after  {
+    content:  "";
+    display:  table;
+    clear:  both;
+}
+
+.compass-col    {
+    float: left;
+    width:  50%;
+    padding: 30px;
+}
+
+.compass-row:after  {
+    content:  "";
+    display:  table;
+    clear:  both;
+}
+
+.horizontal-center  {
+    width: 300px;
+    margin:  0 auto;
+}
+
+@media screen and (max-width: 600px)    {
+    .compass-col    {
+        width:  100%;
+    }
+}
+
+.grid-container  {
+    dislay: grid;
+    grid-row-gap: 50px;
+    width:  100%;
+    grid-template-columns: auto auto auto;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.grid-container:after  {
+    content:  "";
+    display:  table;
+    clear:  both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .right-col {
+    width: 100%;
+  }
+  .left-col {
+    width: 100%;
+  }
+
+  .item1 {
+    width: 100%;
+  }
 }
 
 .menu-scrollbox::-webkit-scrollbar {
@@ -390,7 +471,7 @@ body {
 
 a:link   {
     font-family: 'GT-Pressura-Regular';
-    font-size: 0.9vw;
+    font-size: 0.9rem;
     color: black;
 }
 
@@ -435,7 +516,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'GT-Pressura-Regular';
     font-weight: 400;
     font-style: normal;
-    font-size: 0.9vw;
+    font-size: 0.9rem;
     color: black;
     line-height: 1.5;
 }
@@ -534,15 +615,6 @@ img {
   filter: grayscale(100%);
 }
 
-.grid-container  {
-    dislay: grid;
-    grid-row-gap: 50px;
-    grid-template-columns: auto auto auto;
-    background-color: aqua;
-    padding: 10px;
-}
-
-
 .year-column {
     font-family: 'Space Mono', monospace;
     background-color: transparent;
@@ -551,12 +623,6 @@ img {
     text-align: left;
     width: 5%
 }
-
-.row    {
-    width: 100%;
-    height: auto;
-}
-
 
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
