@@ -16,6 +16,7 @@
         <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
         <link rel="shortcut icon" type="image/png" href="https://i.imgur.com/PvbSk1s.png"/>
         <script src="home.js"></script>   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     
     <body>  
@@ -83,6 +84,13 @@
                     <br>
                 </div>
                 <img class="blurred-image" src="https://s3.gifyu.com/images/lorem-ipsum.gif" onclick="lorem()" style="width:100%; cursor: pointer">
+                <br>
+                <br>
+                <div class="text-container">
+                    <button class="button" onclick="drawing()">drawings</button>
+                    <br>
+                </div>
+                <img class="blurred-image" src="https://i.imgur.com/eEMPqnx.gif" onclick="drawing()" style="width:100%; cursor: pointer">
             </div>
         </div>
         
@@ -128,7 +136,7 @@
                      <div class="spacing">SPACING</div>
                      <div class="row" style="padding: 30px">
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">problem statement;</p>
+                            <p class="motoya" style="font-size: 1rem">problem statement;</p>
                         </div>
                         <div class="right-col">
                             Today, users can create shared channels from our Desktop or Web experiences only. By unlocking mobile shared channel creation, we’re providing a more complete experience for our users that will also serve as a positive growth lever for accelerating the network.
@@ -146,7 +154,7 @@
                         <div class="spacing">SPACING</div>
                         <div class="spacing">SPACING</div>
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">takeaways;</p>
+                            <p class="motoya" style="font-size: 1rem">takeaways;</p>
                         </div>
                         <div class="right-col">
                             Because over 5k shared channels are made each week on the desktop version of Slack, how could we keep the entry points consistent so that the user experience on mobile is still familiar?
@@ -164,7 +172,7 @@
                     <div class="row" style="padding: 30px">
                         <div class="spacing">SPACING</div>
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">process;</p>
+                            <p class="motoya" style="font-size: 1rem">process;</p>
                         </div>
                         <div class="right-col">
                             Through iterative design, I approached the design solution by focusing on bridging the gap between the existing desktop experience and the new mobile experience of shared channels. I wanted to parallel the existing user experience in order to recreate the natural flow of steps needed to make a new shared channel, but with the change of focusing on sharing a link versus inputting emails.
@@ -180,7 +188,7 @@
                         <div class="spacing">SPACING</div>
                         <div class="spacing">SPACING</div>
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">reflection;</p>
+                            <p class="motoya" style="font-size: 1rem">reflection;</p>
                         </div>
                         <div class="right-col">
                             From my first project at Slack, I learned a lot about the value of feedback and about the iterative design process. I also faced the new challenge of continuing a project that was already in progress, as it was passed onto me by my mentor! This really put into perspective the amount of collaboration that comes with working in the industry.
@@ -194,7 +202,7 @@
                     <div class="row" style="padding: 30px">
                         <div class="spacing">SPACING</div>
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">challenges;</p>
+                            <p class="motoya" style="font-size: 1rem">challenges;</p>
                         </div>
                         <div class="right-col">
                             1. Where can we place this user education?
@@ -220,7 +228,7 @@
                     <div class="spacing">SPACING</div>
                     <div class="row" style="padding: 30px">
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">solution;</p>
+                            <p class="motoya" style="font-size: 1rem">solution;</p>
                         </div>
                         <div class="right-col">
                             The solution I reached required consideration of the available screen real-estate as well as minimizing the number of steps users would have to encounter in order to absorb the new user education. This project was also hands-on with the engineering team especially, as we dealt with the techncalities of scalability across different window sizes.
@@ -233,7 +241,7 @@
                         <div class="spacing">SPACING</div>
                         <div class="spacing">SPACING</div>
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">problem;</p>
+                            <p class="motoya" style="font-size: 1rem">problem;</p>
                         </div>
                         <div class="right-col">
                             This project dealt with finetuning the user flow of accepting shared channel invites. By reducing the amount of roadblocks users may face when joining a shared channel, we hoped to increase the usage of shared channels altogether, as users who utilize this paid feature or more likely to retain their premium subscription even after the initial 90-day trial.
@@ -250,7 +258,7 @@
                     </div>
                     <div class="row" style="padding: 30px">
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">findings;</p>
+                            <p class="motoya" style="font-size: 1rem">findings;</p>
                         </div>
                         <div class="right-col">
                             In order to improve the current shared channel acceptance flow, I had to understand the dead-ends that users reach when trying to accept an invite. By outlining the process, it was a lot easier to grasp the pain points of the current system in place.
@@ -265,7 +273,7 @@
                     </div>
                     <div class="row" style="padding: 30px">
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">findings;</p>
+                            <p class="motoya" style="font-size: 1rem">findings;</p>
                         </div>
                         <div class="right-col">
                             I learned that there are two distinct channel states when it comes to handling accepting an invite to a shared channel, and by distinguishing these states, we could better streamline the invite flow.
@@ -287,7 +295,7 @@
                     </div>
                     <div class="row" style="padding: 30px">
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">conclusion;</p>
+                            <p class="motoya" style="font-size: 1rem">conclusion;</p>
                         </div>
                         <div class="right-col">
                             By simplifying the user flow of this invitation process, there is less probability for user dropout rates. From this project, I learned a lot about the power of user research and human-interaction when it comes with different interfaces. 
@@ -333,25 +341,19 @@
                     </div>
                     <div class="row" style="padding: 30px">
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">step 01 - discovery;</p>
+                            <p class="motoya" style="font-size: 1rem">step 01 - discovery;</p>
                         </div>
                         <div class="right-col">
-                            <b>WHY ARE WE BUILDING THIS?</b>
-                            <br>
-                            To display the agent logo process in a unique, but clear format and to show how we understood what an agent’s asked for and how we arrived at the final result.
-                            ‍<br>
-                            <br>
-                            <b>WHO IS THE AUDIENCE?</b>
-                            <br>
+                            <p class="motoya">→ WHY ARE WE BUILDING THIS?</p>
+                            To display the agent logo process in a unique, but clear format and to show how we understood what an agent’s asked for and how we arrived at the final result.<br>
+                            <p class="motoya">→ WHO IS THE AUDIENCE?</p>
                             Agents
                             <br>
                             Non-designers
                             <br>
                             (This means the website should be easy to use, clear, concise, interactive, and engaging.)
                             ‍<br>
-                            <br>
-                            <b>WHO IS USING IT?</b>
-                            <br>
+                            <p class="motoya">→ WHO IS USING IT?</p>
                             Marketing, SGMs, Recruiting, and C-Level Leaders
                         </div>
                         <div class="spacing">SPACING</div>
@@ -365,7 +367,7 @@
                     </div>
                     <div class="row" style="padding: 30px">
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">step 02 - prototyping;</p>
+                            <p class="motoya" style="font-size: 1rem">step 02 - prototyping;</p>
                         </div>
                         <div class="right-col">
                             After understanding the microsite's main goal of designing for marketing and recruiting members of Compass, we decided to concentrate on first designing a mobile experience. Since the content is used to familiarize real estate agents with rebranding, I wanted to focus on telling a cohesive story about how new logos/brands are ideated.
@@ -385,7 +387,7 @@
                     <div class="spacing">SPACING</div>
                     <div class="row" style="padding: 30px">
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">prototype a;</p>
+                            <p class="motoya" style="font-size: 1rem">prototype a;</p>
                         </div>
                         <div class="right-col">
                             After understanding the microsite's main goal of designing for marketing and recruiting members of Compass, we decided to concentrate on first designing a mobile experience. Since the content is used to familiarize real estate agents with rebranding, I wanted to focus on telling a cohesive story about how new logos/brands are ideated.
@@ -397,38 +399,41 @@
                         <div class="spacing">SPACING</div>
                     </div>
 
-                    <div class="grid-container" style="background-color: white">
-                          <div class="item1" style="padding-left: 50px">
-                              <img src="https://s3.gifyu.com/images/compass-prototype-a-gif-1.gif" style="width: 300px">
-                          </div>
-                          <div class="item1" style="width: 70%">
-                              <p class="motoya">CASE STUDY PAGE FORMAT</p>
-                            ‍<br>
+                    <div class="compass-row">
+                        <div class="compass-col">
+                            <div class="horizontal-center">
+                                <img src="https://s3.gifyu.com/images/compass-prototype-a-gif-1.gif" style="width: 300px">
+                            </div>
+                        </div>
+                        <div class="compass-col" style="padding-right: 50px">
+                            <p class="motoya">CASE STUDY PAGE FORMAT</p>
                             Prototype A's case study page required user interaction through continued vertical scrolling. I wanted to emulate a timeline effect, so that the user could follow the same progress as a designer would during the logo design process. It also told a more cohesive story and replicates the same informational format that is presented in logo presentation decks.
                             <br>
                             <br>
-                            <b>DESIGN FLAWS</b>
-                            <br>
+                            <p class="motoya">DESIGN FLAWS</p>
                             We wanted to revise this layout by making it more navigation-friendly, as scrolling holds the user back from easily accessing all of the other sections in the case study pages.
-                          </div>
+                        </div>
                     </div>
                     <div class="spacing">SPACING</div>
                     <div class="spacing">SPACING</div>
-                    <div class="grid-container" style="background-color: white">
-                          <div class="item1" style="width: 70%">
+
+                     <div class="compass-row">
+                        <div class="compass-col" style="padding:50px">
                             <p class="motoya">VISUALIZING LOGO OPTIONS</p>
-                            ‍<br>
-                            Previewing logo options on each case study page was another revision we needed to make, as the first version of the mockup made it so that it was necessary for users to view the logo on mockups. This information is extra, and would serve a greater purpose if it were hidden or accessed through an extra trigger.  
-                          </div>
-                          <div class="item1" style="padding-left: 50px">
-                              <img src="https://s3.gifyu.com/images/compass-prototype-a-gif-2.gif" style="width: 300px">
-                          </div>
+                            Previewing logo options on each case study page was another revision we needed to make, as the first version of the mockup made it so that it was necessary for users to view the logo on mockups. This information is extra, and would serve a greater purpose if it were hidden or accessed through an extra trigger.
+                        </div>
+                        <div class="compass-col">
+                            <div class="horizontal-center">
+                                <img src="https://s3.gifyu.com/images/compass-prototype-a-gif-2.gif" style="width: 300px">
+                            </div>
+                        </div>
                     </div>
                     <div class="spacing">SPACING</div>
                     <div class="spacing">SPACING</div>
+
                     <div class="row" style="padding: 30px">
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">final prototype;</p>
+                            <p class="motoya" style="font-size: 0.9rem">final prototype;</p>
                         </div>
                         <div class="right-col">
                             After critique sessions from senior Compass designers, we reached this <a href="https://vimeo.com/359427349">final solution</a>.
@@ -439,45 +444,52 @@
                         <div class="spacing">SPACING</div>
                         <div class="spacing">SPACING</div>
                     </div>
-                    <div class="grid-container" style="background-color: white">
-                          <div class="item1" style="padding-left: 50px">
-                              <img src="https://s3.gifyu.com/images/compass-final-gif-1.gif" style="width: 300px">
-                          </div>
-                          <div class="item1" style="width: 70%">
-                              <p class="motoya">01. DISPLAYING THE AGENT BRAND</p>
-                            ‍<br>
+
+                    <div class="compass-row">
+                        <div class="compass-col">
+                            <div class="horizontal-center">
+                                <img src="https://s3.gifyu.com/images/compass-final-gif-1.gif" style="width: 300px">
+                            </div>
+                        </div>
+                        <div class="compass-col" style="padding-right: 50px">
+                            <p class="motoya">01. DISPLAYING THE AGENT BRAND</p>
                             In order for users of the website to understand the logo directions, I started off each logo case study with an 'Agent Brand' section that extracts info from the Agent Logo Workbook (another Compass resource that realtors use to give designers a direction to follow when ideating logos).
-                          </div>
+                        </div>
                     </div>
                     <div class="spacing">SPACING</div>
                     <div class="spacing">SPACING</div>
-                     <div class="grid-container" style="background-color: white">
-                          <div class="item1" style="width: 70%">
-                            <p class="motoya">02. PRESENTATION OF LOGO OPTIONS</p>
-                            ‍<br>
-                            The next section of each case study shows the logo options that are actually presented to the clients, just as they are during Agent Logo Presentations. I also added a method to view the logos on actual marketing materials / prototypes for better visualization. 
-                          </div>
-                          <div class="item1" style="padding-left: 50px">
-                              <img src="https://s3.gifyu.com/images/5f91f93dd1cfbe0359ef2069_version20220gif202.gif" style="width: 300px">
-                          </div>
+
+                    <div class="compass-row">
+                        <div class="compass-col" style="padding:50px">
+                           <p class="motoya">02. PRESENTATION OF LOGO OPTIONS</p>
+                            The next section of each case study shows the logo options that are actually presented to the clients, just as they are during Agent Logo Presentations. I also added a method to view the logos on actual marketing materials / prototypes for better visualization.
+                        </div>
+                        <div class="compass-col">
+                            <div class="horizontal-center">
+                                <img src="https://s3.gifyu.com/images/5f91f93dd1cfbe0359ef2069_version20220gif202.gif" style="width: 300px">
+                            </div>
+                        </div>
                     </div>
                     <div class="spacing">SPACING</div>
                     <div class="spacing">SPACING</div>
-                     <div class="grid-container" style="background-color: white">
-                          <div class="item1" style="padding-left: 50px">
-                              <img src="https://s3.gifyu.com/images/5f91f93dd1cfbe21eaef2025_version20220gif203d241e70569ebceb3.gif" style="width: 300px">
-                          </div>
-                          <div class="item1" style="width: 70%">
+
+                    <div class="compass-row">
+                        <div class="compass-col">
+                            <div class="horizontal-center">
+                                <img src="https://s3.gifyu.com/images/5f91f93dd1cfbe21eaef2025_version20220gif203d241e70569ebceb3.gif" style="width: 300px">
+                            </div>
+                        </div>
+                        <div class="compass-col" style="padding-right: 50px">
                             <p class="motoya">03. LOGO DELIVERY</p>
-                            ‍<br>
                             The final step of the logo design process is the final delivery, which occurs after design refinements. This section is where users can see the logo being used on actual marketing assets and products!
-                          </div>
+                        </div>
                     </div>
                     <div class="spacing">SPACING</div>
                     <div class="spacing">SPACING</div>
+
                     <div class="row" style="padding: 30px">
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">navigation;</p>
+                            <p class="motoya" style="font-size: 1rem">navigation;</p>
                         </div>
                         <div class="right-col">
                             In order to make the varieties of case studies more accessible, I decided to incorporate a Gallery page. This page also has a search option, where users can filter through case studies using tags, regions, and type. For future reference, users can also save a case study and access it through their user profile.
@@ -490,7 +502,7 @@
                     <div class="spacing">SPACING</div>
                     <div class="row" style="padding: 30px">
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">fin!;</p>
+                            <p class="motoya" style="font-size: 1rem">fin!;</p>
                         </div>
                         <div class="right-col">
                             My first design internship at Compass was a huge blessing that has contributed towards my slow progression towards calling myself a worthy designer. I've never felt more proud of myself after giving my end-of-internship presentation, and I can only hope to continue making an impact like I did at Compass throughout my career. Thank you especially to my mentor, Ursula, for being a friend and a confidante during my 12 weeks in the Hollywood office :).
@@ -534,7 +546,7 @@
                     <div class="spacing">SPACING</div>
                     <div class="row" style="padding: 30px">
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">problem statement;</p>
+                            <p class="motoya" style="font-size: 1rem">problem statement;</p>
                         </div>
                         <div class="right-col">
                             The objective of our project was to redesign the user interface and user experience of the existing Rally app. The Rally app was developed by a previous team of students who focused on the backend and functionality of the app. To expand on the functionality of Rally to something more possible for enacting engagement and change, we phrased our problem statement to be:
@@ -555,7 +567,7 @@
                     <div class="spacing">SPACING</div>
                     <div class="row" style="padding: 30px">
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">takeaways;</p>
+                            <p class="motoya" style="font-size: 1rem">takeaways;</p>
                         </div>
                         <div class="right-col">
                             These two distinct users that we mapped out pointed out the different features Rally needed to have in order to appeal to both the activists and the politically inactive.
@@ -576,7 +588,7 @@
                     <div class="spacing">SPACING</div>
                     <div class="row" style="padding: 30px">
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">analysis & testing;</p>
+                            <p class="motoya" style="font-size: 1rem">analysis & testing;</p>
                         </div>
                         <div class="right-col">
                             My team's role in evolving Rally's interface first required finding pain points in the original design when it came to both the features and the user experience. To do so, we conducted a deep heuristic evaluation and collected feedback from users through online surveys and supervised interviews.
@@ -601,7 +613,7 @@
                     <div class="spacing">SPACING</div>
                     <div class="row" style="padding: 30px">
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">branding;</p>
+                            <p class="motoya" style="font-size: 1rem">branding;</p>
                         </div>
                         <div class="right-col">
                             We updated the branding to reflect the tastes of our target audience and to refresh Rally into something that was more...
@@ -631,7 +643,7 @@
                     <div class="spacing">SPACING</div>
                     <div class="row" style="padding: 30px">
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">limitations;</p>
+                            <p class="motoya" style="font-size: 1rem">limitations;</p>
                         </div>
                         <div class="right-col">
                             Regarding the limitations of our study, there may be some issues with the validity of our study due to the volume and type of testers. Most of our testing demographic was not within our target demographic because of our inability to meet with individuals in-person. However, there are a number of tradeoffs associated with this decision. While it might be harder to get context-based feedback, general usability of the app can be tested.
@@ -648,7 +660,7 @@
                     <div class="spacing">SPACING</div>
                     <div class="row" style="padding: 30px">
                         <div class="left-col">
-                            <p class="motoya" style="font-size: 1vw">next steps;</p>
+                            <p class="motoya" style="font-size: 1rem">next steps;</p>
                         </div>
                         <div class="right-col">
                             Since we only created a front-end design, our work still needs to be implemented in Swift by the next group of students working for the ADL. In the meanwhile, we plan to continue developing the design into a formidable product capable of enacting change!
@@ -780,7 +792,7 @@
                         </div>
                     </div>
                 </div> <!-- ALSO THE END OF LOREM CASE STUDY --> 
-            </div> <!-- ALSO THE END OF LOREM CASE STUDY --> 
+            </div> <!-- ALSO THE END OF LOREM CASE STUDY -->
         </div> <!-- END OF MAIN CASE STUDY --> 
     </body>
 </html>
