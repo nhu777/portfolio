@@ -1,4 +1,4 @@
-function myFunction() {
+function slack() {
     "use strict";
     
     var landing = document.getElementById("landing");
@@ -7,6 +7,7 @@ function myFunction() {
     var rally = document.getElementById("rally-case-study");
     var lorem = document.getElementById("lorem-case-study");
     var drawing = document.getElementById("drawing-case-study");
+    var nike = document.getElementById("nike-case-study");
     
     if (slack.style.display === "none") {
         slack.style.display = "block";
@@ -14,6 +15,7 @@ function myFunction() {
         compass.style.display = "none";
         rally.style.display = "none";
         lorem.style.display = "none";
+        nike.style.display = "none";
     } else {
         slack.style.display = "none";
         landing.style.display = "block";
@@ -21,6 +23,37 @@ function myFunction() {
         rally.style.display = "none";
         lorem.style.display = "none";
         drawing.style.display = "none";
+        drawing.style.display = "none";
+        nike.style.display = "none";
+    }
+}
+
+function nike() {
+    "use strict";
+
+    var landing = document.getElementById("landing");
+    var compass = document.getElementById("compass-case-study");
+    var slack = document.getElementById("slack-case-study");
+    var rally = document.getElementById("rally-case-study");
+    var lorem = document.getElementById("lorem-case-study");
+    var drawing = document.getElementById("drawing-case-study");
+    var nike = document.getElementById("nike-case-study");
+    
+    if (nike.style.display === "none") {
+        nike.style.display = "block";
+        compass.style.display = "none";
+        landing.style.display = "none";
+        slack.style.display = "none";
+        rally.style.display = "none";
+        lorem.style.display = "none";
+        drawing.style.display = "none";
+    } else {
+        nike.style.display = "none";
+        compass.style.display = "none";
+        landing.style.display = "block";
+        slack.style.display="none";
+        rally.style.display = "none";
+        lorem.style.display = "none";
         drawing.style.display = "none";
     }
 }
@@ -34,6 +67,7 @@ function compass() {
     var rally = document.getElementById("rally-case-study");
     var lorem = document.getElementById("lorem-case-study");
     var drawing = document.getElementById("drawing-case-study");
+    var nike = document.getElementById("nike-case-study");
     
     if (compass.style.display === "none") {
         compass.style.display = "block";
@@ -42,6 +76,7 @@ function compass() {
         rally.style.display = "none";
         lorem.style.display = "none";
         drawing.style.display = "none";
+        nike.style.display = "none";
     } else {
         compass.style.display = "none";
         landing.style.display = "block";
@@ -49,6 +84,7 @@ function compass() {
         rally.style.display = "none";
         lorem.style.display = "none";
         drawing.style.display = "none";
+        nike.style.display = "none";
     }
 }
 
@@ -61,6 +97,7 @@ function rally() {
     var rally = document.getElementById("rally-case-study");
     var lorem = document.getElementById("lorem-case-study");
     var drawing = document.getElementById("drawing-case-study");
+    var nike = document.getElementById("nike-case-study");
     
     if (rally.style.display === "none") {
         compass.style.display = "none";
@@ -69,6 +106,7 @@ function rally() {
         rally.style.display = "block";
         lorem.style.display = "none";
         drawing.style.display = "none";
+        nike.style.display = "none";
     } else {
         landing.style.display = "block";
         compass.style.display = "none";
@@ -76,6 +114,7 @@ function rally() {
         rally.style.display = "none";
         lorem.style.display = "none";
         drawing.style.display = "none";
+        nike.style.display = "none";
     }
 }
 
@@ -88,6 +127,7 @@ function lorem() {
     var rally = document.getElementById("rally-case-study");
     var lorem = document.getElementById("lorem-case-study");
     var drawing = document.getElementById("drawing-case-study");
+    var nike = document.getElementById("nike-case-study");
     
     if (lorem.style.display === "none") {
         compass.style.display = "none";
@@ -96,6 +136,7 @@ function lorem() {
         rally.style.display = "none";
         drawing.style.display = "none";
         lorem.style.display = "block";
+        nike.style.display = "none";
     } else {
         landing.style.display = "block";
         compass.style.display = "none";
@@ -103,6 +144,7 @@ function lorem() {
         rally.style.display = "none";
         lorem.style.display = "none";
         drawing.style.display = "none";
+        nike.style.display = "none";
     }
 }
 
@@ -115,6 +157,7 @@ function drawing() {
     var rally = document.getElementById("rally-case-study");
     var lorem = document.getElementById("lorem-case-study");
     var drawing = document.getElementById("drawing-case-study");
+    var nike = document.getElementById("nike-case-study");
     
     if (drawing.style.display === "none") {
         compass.style.display = "none";
@@ -123,6 +166,7 @@ function drawing() {
         rally.style.display = "none";
         lorem.style.display = "none";
         drawing.style.display = "block";
+        nike.style.display = "none";
     } else {
         drawing.style.display = "block";
         lorem.style.display = "none";
@@ -130,5 +174,6 @@ function drawing() {
         slack.style.display = "none";
         rally.style.display = "none";
         lorem.style.display = "none";
+        nike.style.display = "none";
     }
 }

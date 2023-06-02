@@ -77,13 +77,16 @@ body {
     color: rgba(224,57,61,1);
     background: rgba(224,57,61,0.3);
     border: none;
-    border-radius: 3px;
-    padding: 6px;
+    border-radius: 100px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
     text-align: left;
     text-decoration: none;
     display: inline-block;
-    font-family: 'GT-Pressura-Regular';
-    font-size: 0.9rem;
+    font-family: 'SF-Pro-Display-Bold';
+    font-size: 0.7rem;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -92,13 +95,16 @@ body {
     color: rgba(0,156,219,1);
     background: rgba(0,156,219,0.3);
     border: none;
-    border-radius: 3px;
-    padding: 6px;
+    border-radius: 100px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
     text-align: left;
     text-decoration: none;
     display: inline-block;
-    font-family: 'GT-Pressura-Regular';
-    font-size: 0.9rem;
+    font-family: 'SF-Pro-Display-Bold';
+    font-size: 0.7rem;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -107,15 +113,19 @@ body {
     color: rgba(97,187,70,1);
     background: rgba(97,187,70,0.3);
     border: none;
-    border-radius: 3px;
-    padding: 6px;
+    border-radius: 100px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
     text-align: left;
     text-decoration: none;
     display: inline-block;
-    font-family: 'GT-Pressura-Regular';
-    font-size: 0.9rem;
+    font-family: 'SF-Pro-Display-Bold';
+    font-size: 0.7rem;
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-right: 8px;
 }
 
 .motoya     {
@@ -180,6 +190,17 @@ body {
 }
 
 .slack-case-study   {
+    transition-delay: 1s;
+    background: white;
+    transition-timing-function: ease-in-out;
+    display: hidden;
+    height: 100vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */   
+}
+
+.nike-case-study   {
     transition-delay: 1s;
     background: white;
     transition-timing-function: ease-in-out;
@@ -328,7 +349,20 @@ body {
 .right-col  {
     width: 50%;
     float: left;
-    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.left-col-photo   {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.right-col-photo {
+    width: 50%;
+    float: left;
+    text-align: center;
 }
 
 .col   {
@@ -339,6 +373,12 @@ body {
 .row    {
     width: 100%;
     height: auto;
+}
+
+.row-photo    {
+    width:100%;
+    height: auto;
+    text-align:center;
 }
 
 .row:after  {
